@@ -1,6 +1,10 @@
-function Number(){
+
+
+function Number({counter}){
     return(
-        <h1 className="number">0</h1>
+        <span className="number">
+        {counter}
+        </span>
     )
 }
 
